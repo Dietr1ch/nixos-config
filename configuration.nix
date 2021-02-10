@@ -21,6 +21,7 @@
       ./power.nix
       ./networking.nix
       ./sound.nix
+      # ./printing.nix
 
       ./locale.nix
       ./fonts.nix
