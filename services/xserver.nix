@@ -6,13 +6,20 @@
       enable = true;
 
       libinput = {
-        # Enable touchpad support (enabled default in most desktopManager).
         enable = true;
 
-        accelSpeed = "0.0";
+        mouse = {
+          accelSpeed = "0.0";
 
-        naturalScrolling = true;
-        tapping = true;
+          naturalScrolling = false;
+        };
+
+        touchpad = {
+          accelSpeed = "0.0";
+
+          tapping = true;
+          naturalScrolling = true;
+        };
       };
     };
   };
