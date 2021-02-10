@@ -5,6 +5,8 @@
     enableRedistributableFirmware = true;
 
     nvidia.prime = {
+      enable = true;
+
       offload.enable = true;
 
       # FIXME: Add your own machine-specific PCI Bus IDs
