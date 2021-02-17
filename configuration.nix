@@ -17,6 +17,7 @@
 
       ./nixos.nix
       ./security.nix
+      ./security-keys.nix
 
       ./power.nix
       ./networking.nix
