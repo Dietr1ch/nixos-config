@@ -74,9 +74,10 @@
       nvme-cli
       ## Filesystems
       cryptsetup
-      ntfs3g
       e2fsprogs   # fsck.ext4
       f2fs-tools  # fsck.f2fs
+      ntfs3g      # NTFS
+      exfat-utils # ExFAT
     ];
   };
 }
