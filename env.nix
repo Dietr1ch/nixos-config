@@ -78,6 +78,11 @@
       f2fs-tools  # fsck.f2fs
       ntfs3g      # NTFS
       exfat-utils # ExFAT
+      fuse_exfat
+      gphoto2fs   # Cameras
+      libgphoto2
+      jmtpfs      # MTP
+      gvfs
     ];
   };
 }
