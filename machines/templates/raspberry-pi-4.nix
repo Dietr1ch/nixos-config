@@ -48,10 +48,6 @@
   services.xserver = {
     videoDrivers = [ "fbdev" ];
   };
-
-  # Sound
-  sound.enable = true;
-  hardware.pulseaudio.enable = true;
 }
 
 
