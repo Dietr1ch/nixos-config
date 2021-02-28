@@ -2,8 +2,6 @@
 
 {
   security = {
-    hideProcessInformation = false;
-
     pam.loginLimits = [
       # memlock
       {
