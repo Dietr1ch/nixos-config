@@ -21,6 +21,7 @@
 
       ./power.nix
       ./networking.nix
+      ./wifi.nix
       ./sound.nix
       # ./printing.nix
 
