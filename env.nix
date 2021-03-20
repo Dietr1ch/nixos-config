@@ -69,7 +69,7 @@
       # Storage
       ncdu
       ## Disks
-      gparted
+      gptfdisk
       smartmontools
       nvme-cli
       ## Filesystems
