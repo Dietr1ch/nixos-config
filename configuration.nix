@@ -43,6 +43,7 @@
       ./services/avahi.nix
       ./services/zerotier.nix
       ./services/xserver.nix
+      ./services/udev.nix
       ./services/ssh.nix
       # ./services/ipfs.nix
       # ./services/monero.nix
