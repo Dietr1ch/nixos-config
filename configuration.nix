@@ -23,6 +23,7 @@
       ./networking.nix
       ./nfs.nix
       ./wifi.nix
+      ./video.nix
       ./sound.nix
       # ./printing.nix
 
