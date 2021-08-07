@@ -19,10 +19,15 @@
     extraModulePackages = [ ];
   };
 
-  fileSystems."/" =
-    { device = "/dev/disk/by-uuid/";
+  fileSystems = {
+    "/" = {
+      device = "/dev/disk/by-uuid/";
       fsType = "";
+      options = [
+        "noatime"
+      ];
     };
+  };
 
   swapDevices = [ ];
 }
