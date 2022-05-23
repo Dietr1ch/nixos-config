@@ -20,6 +20,8 @@
 
       cryptsetup
       plasma-vault
+
+      plasma5Packages.kio-gdrive
     ];
   };
 
