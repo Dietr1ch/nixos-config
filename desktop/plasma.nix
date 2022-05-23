@@ -13,13 +13,15 @@
     };
   };
 
-  environment.systemPackages = with pkgs; [
-    plasma-pa
-    plasma-nm
+  environment = {
+    systemPackages = with pkgs; [
+      plasma-pa
+      plasma-nm
 
-    cryptsetup
-    plasma-vault
-  ];
+      cryptsetup
+      plasma-vault
+    ];
+  };
 
   networking = {
     firewall = {
