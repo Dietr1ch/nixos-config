@@ -49,7 +49,7 @@
       ## Networking
       wol
       wget
-      sshfsFuse
+      sshfs-fuse
       nmap
       ## Logs
       less
