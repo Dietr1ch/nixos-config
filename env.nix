@@ -20,6 +20,10 @@
   environment = {
     systemPackages = with pkgs; [
       # Core tools
+      ## Backups
+      autorestic
+      restic
+      restic-rest-server
       ## Shell
       bash
       fish
