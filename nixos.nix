@@ -6,8 +6,6 @@
   };
 
   nix = {
-    # package = pkgs.nixFlakes;
-
     # Build
     # -----
     # maxJobs = "auto";
@@ -26,6 +24,14 @@
       dates = "weekly";
       options = "--delete-older-than 8d";
     };
+
+    # Flakes
+    # ------
+    # https://nixos.wiki/wiki/Flakes
+    package = pkgs.nixFlakes;
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
   };
 
   system = {
