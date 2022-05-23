@@ -8,14 +8,19 @@
   nix = {
     # package = pkgs.nixFlakes;
 
-    autoOptimiseStore = true;
+    # Build
+    # -----
     # maxJobs = "auto";
     # buildCores = 0;
     # nrBuildUsers = 8;
+    # daemonIONiceLevel = 10;
+    # daemonNiceLevel = 10;
 
-    daemonIONiceLevel = 10;
-    daemonNiceLevel = 10;
-
+    # Store
+    # -----
+    settings = {
+      auto-optimise-store = true;
+    };
     gc = {
       automatic = true;
       dates = "weekly";
