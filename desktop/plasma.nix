@@ -6,7 +6,7 @@
       enable = true;
 
       displayManager = {
-        defaultSession = "plasma5";
+        defaultSession = "plasmawayland";
       };
 
       desktopManager.plasma5.enable = true;
